@@ -1,0 +1,1 @@
+Welcome to xcite 1.0.0rc1
