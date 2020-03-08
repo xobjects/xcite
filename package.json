@@ -23,6 +23,13 @@
 		"template",
 		"templates"
 	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/xobjects/xcite.git"
+	},
+	"bugs": {
+		"url": "git+https://github.com/xobjects/xcite/issues"
+	},
 	"license": "MIT",
 	"devDependencies": {
 		"prettier": "^1.19.1",
