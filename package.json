@@ -1,6 +1,6 @@
 {
 	"name": "xcite",
-	"version": "1.0.0rc",
+	"version": "1.0.0",
 	"description": "A simple and flexible javascript template engine",
 	"main": "lib/xcite.js",
 	"types": "lib/xcite.d.ts",
