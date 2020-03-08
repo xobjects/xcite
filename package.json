@@ -16,7 +16,7 @@
 		"postversion": "git push && git push --tags"
 	},
 	"files": [
-		"lib /**/*"
+		"lib"
 	],
 	"author": "G Lee Kelly",
 	"keywords": [
