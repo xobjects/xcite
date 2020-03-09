@@ -1,1 +1,3 @@
-Welcome to xcite 1.0.0rc1
+Welcome to xcite.
+
+Examples comming 3/8/2020 - please come  back
