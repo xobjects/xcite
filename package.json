@@ -1,40 +1,41 @@
 {
-	"name": "xcite",
-	"version": "1.0.4",
-	"description": "A simple and flexible javascript template engine",
-	"main": "lib/xcite.js",
-	"types": "lib/xcite.d.ts",
-	"scripts": {
-		"test": "echo \"no tests yet\"",
-		"build": "tsc",
-		"format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
-		"lint": "tslint -p tsconfig.json",
-		"prepare": "npm run build",
-		"prepublishOnly": "npm test && npm run lint",
-		"preversion": "npm run lint",
-		"version": "npm run format && git add -A src",
-		"postversion": "git push && git push --tags"
-	},
-	"files": [
-		"lib"
-	],
-	"author": "G Lee Kelly",
-	"keywords": [
-		"template",
-		"templates"
-	],
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/xobjects/xcite.git"
-	},
-	"bugs": {
-		"url": "git+https://github.com/xobjects/xcite/issues"
-	},
-	"license": "MIT",
-	"devDependencies": {
-		"prettier": "^1.19.1",
-		"tslint": "^6.0.0",
-		"tslint-config-prettier": "^1.18.0",
-		"typescript": "^3.8.3"
-	}
+    "name": "xcite",
+    "version": "1.0.4",
+    "description": "A simple and flexible javascript template engine",
+    "main": "lib/xcite.js",
+    "types": "lib/xcite.d.ts",
+    "scripts": {
+        "test": "echo \"no tests yet\"",
+        "build": "tsc",
+        "cmd": "cmd",
+        "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+        "lint": "tslint -p tsconfig.json",
+        "prepare": "npm run build",
+        "prepublishOnly": "npm test && npm run lint",
+        "preversion": "npm run lint",
+        "version": "npm run format && git add -A src",
+        "postversion": "git push && git push --tags"
+    },
+    "files": [
+        "lib"
+    ],
+    "author": "G Lee Kelly",
+    "keywords": [
+        "template",
+        "templates"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/xobjects/xcite.git"
+    },
+    "bugs": {
+        "url": "git+https://github.com/xobjects/xcite/issues"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "prettier": "^1.19.1",
+        "tslint": "^6.0.0",
+        "tslint-config-prettier": "^1.18.0",
+        "typescript": "^3.8.3"
+    }
 }
