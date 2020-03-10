@@ -33,10 +33,12 @@ The first template will show **data.personal**
 you can run this template two ways:
 
 `let html = t1( data );`
+
 or
+
 `let html = xcite_get('t1')( data );`
 
-**xcite** understand three template tags: `{{ }}` `{{+ }}` and `{{% }}`
+**xcite** understands three template tags: `{{ }}` `{{+ }}` and `{{% }}`
 
 **xcite** internally builds a string ( **o** ) that the template function will return.  The first template tag `{{ }}` will build **o** for you and the second `{{+ }}` allows you to build it yourself.
 
@@ -138,4 +140,4 @@ let t4 = xcite_template(`
 ```
 These are simple examples and hopefully you can see how to expand the use of `{{+ }}` for more complex templates if needed.
 
-Have fun and please leave any comments or suggestions as in the issues page on github.
+Have fun and please leave any comments or suggestions in the issues page on github.
