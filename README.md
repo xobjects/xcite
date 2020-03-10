@@ -11,17 +11,16 @@ import { xcite_template, xcite_run, xcite_get } from 'xcite';
 
 ```javascript
 let data = {
-	personal: {
-		name: 'John Jones',
-		address: '123 Abc Street',
-		phone: '800.555.1212'
-	}, 
-	list: [
-		{ name: 'James', age: 24, hair_color: 'brown' },
-		{ name: 'Lee', age: 56, hair_color: 'gray' },
-		{ name: 'Elizabeth', age: 55, hair_color: 'blond' },
-	], 
-	colors: ['red', 'green', 'blue', 'orange']
+    personal: {
+        name: 'John Jones',
+        address: '123 Abc Street',
+        phone: '800.555.1212'
+    }, 
+    list: [
+        { name: 'James', age: 24, hair_color: 'brown' },
+        { name: 'Lee', age: 56, hair_color: 'gray' },
+        { name: 'Elizabeth', age: 55, hair_color: 'blond' },
+    ] 
 };
 ```
 
@@ -55,16 +54,16 @@ Now let's render **data.list** in an html table.
 
 ```javascript
 let t2 = xcite_template(`
-	<table style="width:40%;">
-	    {{+ x.list.forEach( (item, i ) => { }}
-	    <tr>
-	        <td>{{i}}</td>
-	        <td>{{item.name}}</td>
-	        <td>{{item.age}}</td>
-	        <td>{{item.hair_color}}</td>
-	    </tr>
-	    {{+ }) }} 
-	</table>
+    <table style="width:40%;">
+        {{+ x.list.forEach( (item, i ) => { }}
+            <tr>
+                <td>{{i}}</td>
+                <td>{{item.name}}</td>
+                <td>{{item.age}}</td>
+                <td>{{item.hair_color}}</td>
+            </tr>
+        {{+ }) }} 
+    </table>
 `);
 ```
 
@@ -89,7 +88,7 @@ xcite_template(`
 let t3 = xcite_template(`
     <table style="width:40%;">
         {{+ x.list.forEach( (item, i ) => { }}
-            {{% sub1 [item,i] }}
+          {{% sub1 [item,i] }}
         {{+ }) }} 
     </table>
 `)
