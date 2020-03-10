@@ -140,4 +140,4 @@ let t4 = xcite_template(`
 ```
 These are simple examples and hopefully you can see how to expand the use of `{{+ }}` for more complex templates if needed.
 
-Have fun and please leave any comments or suggestions in the issues page on github.
+Have fun and please leave any comments or suggestions in the issues page on github or you can email me at gkelly@xobjects.net
