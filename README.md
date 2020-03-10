@@ -94,7 +94,7 @@ let t3 = xcite_template(`
 `)
 ```
 
-Note: notice that the sub template (**sub1**) is passed an array because it needs the **item** and the **index** (**i**).  Also, notice that **sub1** references these using **x**.
+Note: notice that the sub template (**sub1**) is passed an array because it needs the **item** and the **index** (**i**).  Also, notice that **sub1** references this array using **x**.
 
 if you need to **pass** multiple values and do not want to use an array, you can pass a plain object instead. 
 
